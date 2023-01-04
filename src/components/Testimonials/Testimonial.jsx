@@ -15,7 +15,7 @@ const Testimonial = () => {
     {
       img: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png",
       review:
-        "I have been working with Guruprasad from last 6 months and i am really impressed with his dedication to his work. He always tries to find best solution in short time and he is always quick to respond. I appreciate his intrest in differnent projects, his willingness to helps others team members and his curiosity to learn new things",
+        "I have been working with Guruprasad from last 6 months and i am really impressed with his dedication to his work. He always tries to find best solution and he is always quick to respond. I appreciate his intrest in differnent projects, his willingness to helps others team members",
     },
     {
       img: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png",
