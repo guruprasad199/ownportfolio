@@ -3,7 +3,9 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Gurubus from "../../img/gurubus.png";
+import AllStar from "../../img/allStar.png"
 import deqodeshop from "../../img/deqodeshop.png";
+import Xflow from "../../img/xflow.png"
 import kitchen from "../../img/kitchen.png";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
@@ -24,16 +26,22 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <img src={AllStar} alt="" style={{height:'80%'}} />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src={Gurubus} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={deqodeshop} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <img src={MusicApp} alt="" style={{height:'80%'}} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={kitchen} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Xflow} alt="" style={{height:'80%'}}/>
         </SwiperSlide>
       </Swiper>
     </div>
